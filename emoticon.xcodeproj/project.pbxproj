@@ -14,6 +14,7 @@
 		A0C85FBD1B4CD51100435F81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0C85FBB1B4CD51100435F81 /* LaunchScreen.storyboard */; };
 		A0C85FC81B4CD51100435F81 /* emoticonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C85FC71B4CD51100435F81 /* emoticonTests.swift */; };
 		A0C85FD31B4CD51100435F81 /* emoticonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C85FD21B4CD51100435F81 /* emoticonUITests.swift */; };
+		A0C85FE21B4CFC8D00435F81 /* Emoticons.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A0C85FE11B4CFC8D00435F81 /* Emoticons.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		A0C85FCE1B4CD51100435F81 /* emoticonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = emoticonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0C85FD21B4CD51100435F81 /* emoticonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = emoticonUITests.swift; sourceTree = "<group>"; };
 		A0C85FD41B4CD51100435F81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0C85FE11B4CFC8D00435F81 /* Emoticons.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Emoticons.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		A0C85FB11B4CD51100435F81 /* emoticon */ = {
 			isa = PBXGroup;
 			children = (
+				A0C85FE01B4CD57F00435F81 /* emoticonKeyBoard */,
 				A0C85FB21B4CD51100435F81 /* AppDelegate.swift */,
 				A0C85FB41B4CD51100435F81 /* ViewController.swift */,
 				A0C85FB61B4CD51100435F81 /* Main.storyboard */,
@@ -123,6 +126,14 @@
 				A0C85FD41B4CD51100435F81 /* Info.plist */,
 			);
 			path = emoticonUITests;
+			sourceTree = "<group>";
+		};
+		A0C85FE01B4CD57F00435F81 /* emoticonKeyBoard */ = {
+			isa = PBXGroup;
+			children = (
+				A0C85FE11B4CFC8D00435F81 /* Emoticons.bundle */,
+			);
+			path = emoticonKeyBoard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,6 +240,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0C85FBD1B4CD51100435F81 /* LaunchScreen.storyboard in Resources */,
+				A0C85FE21B4CFC8D00435F81 /* Emoticons.bundle in Resources */,
 				A0C85FBA1B4CD51100435F81 /* Assets.xcassets in Resources */,
 				A0C85FB81B4CD51100435F81 /* Main.storyboard in Resources */,
 			);
